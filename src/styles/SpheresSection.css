@@ -1,0 +1,76 @@
+.spheres-section h2 {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  padding: 30px;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-left,
+.marquee-right {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-left {
+  animation-direction: normal;
+}
+
+.marquee-right {
+  animation-direction: reverse;
+}
+
+.marquee span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 35px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.marquee span.light-blue {
+  background: rgba(191, 224, 243, 1);
+  border: 2px solid rgba(191, 224, 243, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+.marquee span.yellow {
+  background: rgba(250, 191, 55, 1);
+  border: 2px solid rgba(250, 191, 55, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+.marquee span.pink {
+  background: rgba(240, 84, 165, 1);
+  border: 2px solid rgba(240, 84, 165, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+.marquee span.green {
+  background: rgba(203, 213, 56, 1);
+  border: 2px solid rgba(203, 213, 56, 1);
+  color: rgba(27, 27, 27, 1);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
