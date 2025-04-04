@@ -8,6 +8,7 @@ import StrengthsSection from './components/StrengthsSection';
 import RecentProjectsSection from './components/RecentProjectsSection';
 import CallToActionSection from './components/CallToActionSection';
 import ExperienceSection from './components/ExperienceSection';
+import ContactsSection from './components/ContactsSection';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                 <RecentProjectsSection />
                 <CallToActionSection />
                 <ExperienceSection />
+                <ContactsSection />
               </>
             }
           />

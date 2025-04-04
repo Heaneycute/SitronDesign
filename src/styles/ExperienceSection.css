@@ -66,21 +66,21 @@
   
   .block-1 {
     position: relative;
-    bottom: -3vw;
+    bottom: -2.5vw;
     width: 25.78vw;
     height: 3.07vw;
   }
   
   .block-2 {
     position: relative;
-    bottom: 1vw;
+    bottom: 1.5vw;
     width: 21.92vw;
     height: 3.07vw;
   }
   
   .block-3 {
     position: relative;
-    bottom: 1vw;
+    bottom: 1.5vw;
     width: 3.07vw;
     aspect-ratio: 1;
   }
@@ -107,7 +107,7 @@
   
   .block-8 {
     position: relative;
-    bottom: -3vw;
+    bottom: -2.5vw;
     left: 1vw;
     width: 17.03vw;
     height: 7.18vw;
