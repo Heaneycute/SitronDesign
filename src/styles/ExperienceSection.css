@@ -1,0 +1,159 @@
+.experience-section {
+    padding: 5vw 1.56vw;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1vw;
+  }
+  
+  .sub-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  
+  .experience-section h2 {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+  }
+  
+  .block {
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 1.82vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .number {
+    position: relative;
+    bottom: -0.12vw;
+    font-family: "Prosto One", sans-serif;
+    font-size: 1.66vw;
+  }
+  
+  .block-1 {
+    position: relative;
+    bottom: -3vw;
+    width: 25.78vw;
+    height: 3.07vw;
+  }
+  
+  .block-2 {
+    position: relative;
+    bottom: 1vw;
+    width: 21.92vw;
+    height: 3.07vw;
+  }
+  
+  .block-3 {
+    position: relative;
+    bottom: 1vw;
+    width: 3.07vw;
+    aspect-ratio: 1;
+  }
+  
+  .block-4 {
+    width: 49.53vw;
+    height: 3.07vw;
+  }
+  
+  .block-5 {
+    width: 24.79vw;
+    height: 3.07vw;
+  }
+  
+  .block-6 {
+    width: 19.63vw;
+    height: 3.07vw;
+  }
+  
+  .block-7 {
+    width: 3.07vw;
+    aspect-ratio: 1;
+  }
+  
+  .block-8 {
+    position: relative;
+    bottom: -3vw;
+    left: 1vw;
+    width: 17.03vw;
+    height: 7.18vw;
+  }
+  
+  .block-9 {
+    width: 11.79vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  
+  .block-10 {
+    width: 36.45vw;
+    height: 3.07vw;
+  }
+  
+  .block-11 {
+    width: 3.07vw;
+    aspect-ratio: 1;
+  }
+  
+  .block-12 {
+    width: 32.39vw;
+    height: 3.07vw;
+  }
+  
+  .block-13 {
+    width: 17.81vw;
+    height: 3.07vw;
+  }
+  
+  .block-14 {
+    width: 17.81vw;
+    height: 3.07vw;
+    border: 2px solid rgba(203, 213, 56, 1);
+    background: rgba(203, 213, 56, 1);
+    color: rgba(27, 27, 27, 1);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    text-align: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .block-14:hover {
+    opacity: 0.8;
+  }

@@ -1,0 +1,164 @@
+.recent-projects-section {
+    padding: 5vw 1.56vw 15vw 1.56vw;
+    position: relative;
+  }
+  
+  .recent-projects-section h2 {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5vw;
+  }
+  
+  .projects-gallery {
+    position: relative;
+    height: 25vw;
+    width: 100%;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .project-image {
+    position: absolute;
+    width: 30.26vw;
+    height: 27.03vw;
+    object-fit: contain;
+    border-radius: 1.61vw;
+    z-index: 1;
+  }
+  
+  .project-image.left {
+    left: -7vw;
+    top: -1vw;
+    transform: rotate(-20deg);
+  }
+  
+  .project-image.center {
+    left: 33vw;
+    bottom: 5vw;
+  }
+  
+  .project-image.right {
+    right: -7vw;
+    top: -1vw;
+    transform: rotate(20deg);
+  }
+  
+  .curved-line {
+    position: absolute;
+    top: 4vw;
+    left: -5vw;
+    width: 120%;
+    height: 20vw;
+    border: 0.1vw solid rgba(255, 255, 255, 1);
+    border-bottom: none;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    z-index: 0;
+  }
+  
+  .project-description {
+    text-align: center;
+    margin-top: 1.56vw;
+    max-width: 30vw;
+    margin: -5vw auto;
+  }
+  
+  .project-description h3 {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-size: 2.08vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0.52vw;
+  }
+  
+  .project-description p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 1.04vw;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.6vw;
+    margin-bottom: 1.04vw;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat .number {
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-size: 1.66vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-left: -2vw;
+  }
+  
+  .stat .number.fifteen {
+    margin-left: -3.5vw;
+  }
+  
+  .stat .label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .result {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(250, 191, 55, 1) !important;
+    margin-bottom: 1.04vw;
+  }
+  
+  .next-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 22.23vw;
+    height: 3.07vw;
+    color: rgba(27, 27, 27, 1);
+    background: rgba(240, 84, 165, 1);
+    padding: 0.78vw 1.56vw;
+    border: none;
+    border-radius: 1.82vw;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    display: block;
+  }
+  
+  .next-button:hover {
+    opacity: 0.5;
+  }

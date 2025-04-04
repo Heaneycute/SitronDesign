@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import SpheresSection from './components/SpheresSection';
+import StrengthsSection from './components/StrengthsSection';
+import RecentProjectsSection from './components/RecentProjectsSection';
+import CallToActionSection from './components/CallToActionSection';
+import ExperienceSection from './components/ExperienceSection';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
               <>
                 <HeroSection />
                 <SpheresSection />
+                <StrengthsSection />
+                <RecentProjectsSection />
+                <CallToActionSection />
+                <ExperienceSection />
               </>
             }
           />

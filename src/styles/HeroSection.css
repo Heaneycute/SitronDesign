@@ -1,5 +1,5 @@
 .hero-section {
-  padding: 150px 30px;
+  padding: 7.81vw 1.56vw;
   position: relative;
 }
 
@@ -9,22 +9,22 @@
 
 .hero-left {
   position: relative;
-  margin: 100px 160px 0px 0px;
+  margin: 5.2vw 8.33vw 0vw 0vw;
 }
 
 .yellow-square {
-  width: 429px;
-  height: 455px;
+  width: 22.34vw;
+  height: 23.69vw;
   background: rgba(250, 191, 55, 1);
-  border-radius: 31px;
+  border-radius: 1.61vw;
 }
 
 .hero-photo {
-  width: 429px;
-  height: 820px;
+  width: 22.34vw;
+  height: 42.7vw;
   object-fit: cover;
   position: relative;
-  bottom: 360px;
+  bottom: 18.75vw;
   z-index: 1;
 }
 
@@ -40,26 +40,28 @@
 }
 
 .right-arrow {
-  left: -670px;
+  width: 67.96vw;
+  left: -34.89vw;
   object-fit: contain;
   z-index: 0;
 }
 
 .left-arrow {
-  right: -105px;
+  width: 43.95vw;
+  right: -5.46vw;
   object-fit: contain;
 }
 
 
 .upper-hero-text {
   position: relative;
-  left: 700px;
+  left: 36.45vw;
 }
 
 .hero-right h1 {
   font-family: "Prosto One", sans-serif;
   font-weight: 400;
-  font-size: 96px;
+  font-size: 5vw;
   line-height: 100%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
@@ -74,28 +76,28 @@
 }
 
 .social {
-  padding-top: 110px;
+  padding-top: 5.72vw;
 }
 
 .social-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.25vw;
   line-height: 100%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 5.2vw;
 }
 
 .social-icons {
   display: inline-flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.04vw;
 }
 
 .social-icon {
-  width: 72px;
+  width: 3.75vw;
   aspect-ratio: 1;
   transition: opacity 0.3s ease;
 }

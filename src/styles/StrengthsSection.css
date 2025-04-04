@@ -1,0 +1,72 @@
+.strengths-section {
+  padding: 1.56vw;
+  position: relative;
+}
+
+.strengths-section h2 {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 2.6vw;
+}
+
+.strengths-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.56vw;
+}
+
+.strengths-row {
+  display: flex;
+  gap: 1vw;
+  justify-content: space-between;
+}
+
+.strengths-block {
+  flex: 1;
+  position: relative;
+}
+
+.with-arrow {
+  display: flex;
+  align-items: center;
+  padding-left: 48.43vw;
+}
+
+.strengths-arrow {
+  width: 67.55vw;
+  position: absolute;
+  top: 0.52vw;
+  left: -22.39vw;
+  object-fit: contain;
+  z-index: 0;
+}
+
+.text-block {
+  z-index: 1;
+  padding-top: 1.3vw;
+}
+
+.subheading {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-size: 2.08vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(240, 84, 165, 1);
+  display: inline-block;
+  margin-bottom: 1.04vw;
+}
+
+.text-block p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,99 @@
+.call-to-action-section {
+  background: rgba(250, 191, 55, 1);
+  height: 17.29vw;
+  position: relative;
+  padding: 5vw 1.56vw;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.call-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.title-with-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action-section h2 {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(27, 27, 27, 1);
+}
+
+.call-arrow {
+  position: absolute;
+  width: 43.95vw;
+  height: auto;
+  right: 0;
+}
+
+.call-text-block p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(27, 27, 27, 1);
+  margin-bottom: 1vw;
+}
+
+.button-with-text {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.cta-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(27, 27, 27, 1);
+  background: transparent;
+  border: 2px solid rgba(27, 27, 27, 1);
+  padding: 1vw 2.4vw;
+  border-radius: 1.82vw;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: rgba(27, 27, 27, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.consultation-text {
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-size: 2.08vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(27, 27, 27, 1);
+  margin-left: 3vw;
+}
+
+.second-hero-photo {
+  position: absolute;
+  width: 34.58vw;
+  aspect-ratio: 1;
+  height: auto;
+  right: 4vw;
+  bottom: 0;
+  z-index: 1;
+}
